@@ -1,0 +1,24 @@
+name: crm_app
+description: A minimal CRM app built with Flutter and Firebase
+
+# ... other settings ...
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase packages
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.13.5
+
+  # State management (optional)
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
